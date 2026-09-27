@@ -1,0 +1,4 @@
+#!/bin/sh
+# Commit gate: unit tests + lint + build must be green. On-emulator tests need a running
+# emulator, so they run by hand: ./gradlew connectedDebugAndroidTest
+exec ./gradlew testDebugUnitTest lintDebug assembleDebug -q

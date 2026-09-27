@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Macro Maker</string>
+    <string name="service_label">Macro Maker taps</string>
+    <string name="service_description">Taps the screen at the points you place with Macro Maker\'s floating controls. It cannot read what is on your screen, and the app has no internet access.</string>
+
+    <string name="tagline">Taps the screen for you — at the spots you choose, as often as you set. Free, no ads, no internet.</string>
+    <string name="status_on">Tapping service: ON</string>
+    <string name="status_off">Tapping service: OFF</string>
+    <string name="disclosure_title">Before you turn it on</string>
+    <string name="disclosure_body">Macro Maker needs Android\'s Accessibility permission. It uses it for one thing only: tapping the screen at the points you place. It cannot read what is on your screen, and the app has no internet access, so nothing ever leaves your phone.\n\nNext, Android opens its Accessibility settings: tap \"Macro Maker taps\", switch it on, and press Allow. Android shows the same \"full control\" warning for every app that uses this permission — Macro Maker is set up to tap only.\n\nIf Android says \"Restricted setting\": open Settings → Apps → Macro Maker → ⋮ (top right) → Allow restricted settings, then try again.</string>
+    <string name="agree_turn_on">I agree — turn it on</string>
+    <string name="show_controls">Show the floating controls</string>
+    <string name="settings_title">Settings</string>
+    <string name="label_interval">Tap every (milliseconds, 20 or more)</string>
+    <string name="label_jitter">Random extra, ± milliseconds (0 = exact timing)</string>
+    <string name="label_max_taps">Stop after this many taps (0 = never)</string>
+    <string name="label_max_seconds">Stop after this many seconds (0 = never)</string>
+    <string name="how_title">How to use it</string>
+    <string name="how_body">1. Press + on the floating panel. A numbered circle appears.\n2. Drag the circle onto the spot you want tapped. Add more circles to tap several spots in order.\n3. Press ▶ to start and ■ to stop. ✕ stops and hides the panel; bring it back with \"Show the floating controls\" here.\n4. Drag ✥ to move the panel out of the way.</string>
+    <string name="fair_play">Auto-tapping can break a game\'s rules. Use it where it\'s allowed.</string>
+
+    <string name="panel_start" translatable="false">▶</string>
+    <string name="panel_stop">■ %1$d</string>
+    <string name="cd_start">Start tapping</string>
+    <string name="cd_stop">Stop tapping</string>
+    <string name="cd_move">Move the panel</string>
+    <string name="cd_add">Add a tap point</string>
+    <string name="cd_remove">Remove the last tap point</string>
+    <string name="cd_hide">Stop and hide the panel</string>
+    <string name="cd_target">Tap point %1$d</string>
+
+    <plurals name="stopped_tap_limit">
+        <item quantity="one">Done — %1$d tap</item>
+        <item quantity="other">Done — %1$d taps</item>
+    </plurals>
+    <string name="stopped_time_limit">Done — time limit reached</string>
+    <plurals name="too_many_points">
+        <item quantity="one">At most %1$d tap point</item>
+        <item quantity="other">At most %1$d tap points</item>
+    </plurals>
+    <string name="stopped_no_points">Add a tap point with + first</string>
+    <string name="stopped_dispatch_failed">Android refused the tap. Switch Macro Maker off and on again in Accessibility settings.</string>
+</resources>
